@@ -1,0 +1,7 @@
+tensorflow==2.9 
+scikit-learn 
+gym 
+torch 
+scapy 
+dpkt
+numpy==1.23.5
