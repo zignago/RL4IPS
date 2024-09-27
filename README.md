@@ -24,19 +24,15 @@ The code is organized into different modules to ensure maintainability and separ
 CICIDS2017/
     ├── Friday-WorkingHours-Morning.pcap_ISCX.csv  # Sample CSV file for network traffic data
 rl4ips.py                    # Main script to train the RL agent
-README.md                    # Documentation (this file)
 ```
 
 ### Files Description
 
-<core/data_loader.py>: Contains functions to load and preprocess the network traffic data, including feature extraction and label formatting.
-
-<core/model.py>: Defines the deep Q-learning network that will be used for training the RL agent.
-core/epsilon_decay.py: Manages exploration-exploitation trade-offs using epsilon-greedy action selection and decay functions.
-
-<core/environment.py>: Defines the environment interactions, where the agent can take actions and receive feedback in the form of rewards.
-
-<core/training.py>: Implements the training loop with experience replay memory to train the agent effectively.
+`core/data_loader.py`: Contains functions to load and preprocess the network traffic data, including feature extraction and label formatting.
+`core/model.py`: Defines the deep Q-learning network that will be used for training the RL agent.
+`core/epsilon_decay.py`: Manages exploration-exploitation trade-offs using epsilon-greedy action selection and decay functions.
+`core/environment.py`: Defines the environment interactions, where the agent can take actions and receive feedback in the form of rewards.
+`core/training.py`: Implements the training loop with experience replay memory to train the agent effectively.
 `rl4ips.py`: The main script that integrates all the modules, loads the data, trains the agent, and visualizes the results.
 
 ### Requirements
