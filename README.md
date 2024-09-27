@@ -56,4 +56,4 @@ pip install -r requirements.txt
 ``` python rl4ips.py ```
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
