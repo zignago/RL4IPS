@@ -47,9 +47,10 @@ rl4ips.py                    # Main script to train the RL agent
 - Pandas
 - Matplotlib
 - Scikit-learn
-- You can install the required libraries using pip:
 
-pip install -r requirements.txt
+You can install the required libraries using pip:
+
+``` pip install -r requirements.txt ```
 
 ### Running the Project
 
